@@ -1,0 +1,38 @@
+{/* var numbers = [1, 3, 6, 8, 11];
+
+var lucky = numbers.filter(function(number, index) {
+  return index < 3;
+});
+
+console.log(lucky) */}
+
+{/* var numbers = [21, 46, 81, 112, 159];
+
+var lucky = numbers.filter(function(number, index) {
+  return index < 3;
+});/ GET https://api.nomics.com/v1/exchange-
+
+console.log(lucky) */}
+{/* 
+{this.state.apiData.filter((obj, index) => index < 10).map(datum => (
+    <div className="bar" onClick={() => alert(`${datum.currency}  ${datum.rate}`)} style={{height: `${datum.rate*20}%`}}>
+        {datum.currency} 
+        <div className="label">{datum.currency}</div>
+    </div>
+    ))} */}
+
+            {/* <div className="bar" onClick={() => alert('ETH ')} style={{height: "25%"}}> 
+                <div className="label">ETH</div>
+            </div>
+
+            <div className="bar" onClick={() => alert('XRP = $0.3065')} style={{height: "3%"}}> 
+                <div className="label">XRP</div>
+            </div>
+            
+            <div className="bar" onClick={() => alert('LTC = $76.44')} style={{height: "15%"}}> 
+                <div className="label">LTC</div>
+            </div>
+            
+            <div className="bar" onClick={() => alert('LTC = $76.44')} style={{height: "5%"}}> 
+                <div className="label">EOS</div>
+            </div> */}

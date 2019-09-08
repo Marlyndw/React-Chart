@@ -1,0 +1,63 @@
+.body{
+    background-color: goldenrod;
+    font-family: "Titillium Web", Helvetica, Arial, sans-serif;
+}
+.chart-backing {
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.chart{
+    position: relative;
+    border-style:groove;
+    margin: 0 auto;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    background-color:red;
+    border-top-width: medium;
+    border-bottom width: medium;
+    border-left-width: medium;
+    border-right-width: medium;
+    border-left-color: var(--border-color);
+    border-right-color: var(--border-color);
+    border-top-color: var(--border-color);
+    border-bottom-color: var(--border-color);
+}
+
+.header{
+    position: absolute;
+    border: groove;
+    word-wrap: normal;
+    z-index: 1;
+    background-color: goldenrod;
+    border-left-color: var(--border-color);
+    border-right-color: var(--border-color);
+    border-top-color: var(--border-color);
+    border-bottom-color: var(--border-color);
+}
+
+.bar{
+    display: flex;
+    border-radius: 2px 2px 2px 2px;
+    background-color: goldenrod;
+    width: 10%;
+    margin-left: 0.5%;
+    margin-right: 0.5%; 
+}
+
+.label{
+    width: 100%;
+    color: white;
+    text-shadow: 2px 2px 0px black;
+    text-align: center;
+    justify-content: start;
+}
+
+:root{
+    --border-color: black;
+}
